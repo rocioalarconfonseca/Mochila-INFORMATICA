@@ -1,0 +1,25 @@
+Git init : inicializa un repositorio
+Git add + nombre del archivo Pasa de estar del working directory a agregado. Agrega archivo por archivo.
+Git add . : Agregaría todo. 
+Git status: Compruebo el estado del archivo.  
+Git commit -m + nombre del commit: Commitea el archivo y git comenzo a hacer el seguimiento. 
+Git log: Vemos los commits realizados anteriormente
+Si yo no quiero commitear el 3 y ya hice el git add?
+Git restore --staged y nombre del archivo: Es para que ya no este en el staged sino en el working directory.
+Git restore . es para sacar del working directory no del stage. 
+Git checkout +commit (ash) :Cambio de commits o ramas.
+Git checkout + nombre de la rama : Me lleva a esa rama.
+Git Checkout -b +nombre de la rama para hacer otra rama y me cambia a ella. 
+Git merge une dos ramas . 
+ Git branch me dice cuantas ramas tengo y en que rama estoy parada a través del *.
+Git branch -M me permite renombrar la rama. Solo tengo que ponerle la rama nueva.Sin importar en donde estoy ubicada.
+Git branch -m  Le tengo que pasar el nombre de mi rama vieja (rocio) y el nombre de la nueva (main). Puedo cambiar cualquier rama sin importar donde estes parda a diferencia de la M mayuscula.
+Git checkout -b Nos crea una rama sin movernos y nos permite de nuevo entrar ahi. 
+Git remote -v: para saber si estoy logueada, que estoy conectada con el repositorio remoto. 
+Git Push: Para llevarlo a repositorio remoto
+Git Pull: Lo trae al repòsitorio local
+Git remote add origin y el link del repo permite conectar el repositorio local con el remoto. Los conecto porque quiero enviar mis archivos locales al repositorio. 
+Git clone : Sirve para clonar el repositorio remoto en el local. 
+Git push -u origin main: Es para subir el contenido en el repositorio remoto.
+Git pull : Extrae el contenido del repositorio remoto al loca. 
+
